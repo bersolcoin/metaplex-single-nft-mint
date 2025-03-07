@@ -9,7 +9,7 @@ import EventEmitter from "eventemitter3";
 dotenv.config();
 
 // Load wallet from /wallet.json
-const walletPath = "C:/xampp/htdocs/testnet/official.json"; // Adjust path if needed
+const walletPath = "official.json"; // Adjust path if needed
 const secretKey = JSON.parse(fs.readFileSync(walletPath, "utf-8"));
 const wallet = Keypair.fromSecretKey(new Uint8Array(secretKey));
 
