@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@irys/arweave": "^0.0.3",
+    "@irys/query": "^0.0.9",
+    "@irys/sdk": "^0.2.11",
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@solana/web3.js": "^1.98.0",
+    "@types/node": "^22.13.9",
+    "arbundles": "^0.11.2",
+    "bn.js": "^5.2.1",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
